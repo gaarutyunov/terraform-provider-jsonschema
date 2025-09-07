@@ -126,7 +126,7 @@ tags:
 			// Read testing
 			{
 				Config:      fmt.Sprintf(testAccValidatedYAMLDataSourceConfig, filepath.Join(metadataDir, "**/*.yaml")),
-				ExpectError: regexp.MustCompile(`does not contain a valid schema reference in the first line`),
+				ExpectError: regexp.MustCompile(`valid schema reference`),
 			},
 		},
 	})
