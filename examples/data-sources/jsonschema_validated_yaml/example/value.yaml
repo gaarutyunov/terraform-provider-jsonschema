@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=./schema.json
+id: "example-id"
+name: "Example Name"
+tags:
+  - "tag1"
+  - "tag2"
